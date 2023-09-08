@@ -53,4 +53,4 @@ def get_hist_count():
 @app.route('/')
 def hello():
     count = get_hist_count()
-    return f'Hello World! I have been seen {count} times'
+    return f'Here is a new Hello World! I have been seen {count} times'
