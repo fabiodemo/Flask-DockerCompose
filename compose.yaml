@@ -6,6 +6,6 @@ services:
     volumes:
       - .:/code
     environment:
-      - FLASK_DEBUG: "true"
+      FLASK_DEBUG: "true"
   redis:
     image: "redis:alpine"
